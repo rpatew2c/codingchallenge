@@ -6,9 +6,9 @@
 2. Write a service that connects to a fictional weather application’s api. The service
 should retrieve the data from the fictional weather api using the three following
 criteria:
-    1. The url: www.fakeweather.com/api/v1/?postal_code={zip code}
-    2. The API key : ba8e0c9c-20e8-4b54:c06fc8f9-fbba-4e9c-807cc8bdd0c54687
-    3. The API key must be base64 encoded and added to the Authorization
+    1. The url: `www.fakeweather.com/api/v1/?postal_code={zip}`
+    2. The API key : `ba8e0c9c-20e8-4b54:c06fc8f9-fbba-4e9c-807cc8bdd0c54687`
+    3. The API key must be base64 encoded and added to the `Authorization`
 header as a bearer token.
 3. The response body for the fictional weather api will have the following structure:
 
