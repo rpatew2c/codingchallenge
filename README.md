@@ -55,7 +55,9 @@ the service if the cache is expired.
 6. You may not use **any** packages or frameworks expect for PHPUnit.
 
 ## Submission:
-The code should be submitted as a zip archive via email to
-rpate@walk2campus.com with the subject Code Challenge.
-If you have any questions about the challenge please feel free to contact me at
+* The code should be submitted as an archive via email to
+rpate@walk2campus.com with the subject Code Challenge. 
+* Don't include the `vendor` directory in the archive to keep 
+the file size down.
+* If you have any questions about the challenge please feel free to contact me at
 the above email.
