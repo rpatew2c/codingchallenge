@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace FakeWeather\Contracts;
+
 interface CacheInterface
 {
     /**
@@ -7,7 +11,7 @@ interface CacheInterface
      * @param int|string|float|array|null $value
      * @param int $duration Duration in seconds
      */
-    public function set(string $key, $value, int $duration): void
+    public function set(string $key, $value, int $duration): void;
 
     /**
      * @param string $key
