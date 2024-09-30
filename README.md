@@ -52,7 +52,7 @@ Here is an example payload:
 4. The service should cache the api results for 5 minutes.
 5. Write another class that is capable of returning the cached result or results from
 the service if the cache is expired.
-6. You may not use **any** packages or frameworks expect for PHPUnit.
+6. You may not use **any** packages or frameworks except for PHPUnit.
 
 ## Submission:
 * The code should be submitted as an archive via email to
